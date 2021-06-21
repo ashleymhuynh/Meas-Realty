@@ -55,9 +55,9 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   width: 100%;
   height: 100vh;
   margin-bottom: 10px;
@@ -68,35 +68,53 @@ section h1 {
 
 #home {
   background: url(src/skyline.jpg) no-repeat center center/cover;
+  align-items: center;
+  justify-content: center;
 }
+
 #logo {
   margin-top: -85px;
 }
 #about-us {
   background: url(src/table.jpg) no-repeat center center/cover;
-  background-position: bottom 900px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #about-us h1 {
-  margin-top: 153px;
-  margin-right: 55px;
-  margin-bottom: 10px;
+  margin-top: 270px;
+  margin-bottom: 0;
   font-size: 90px;
+  color: #294894;
+  text-align: center;
 }
 #about-us p {
   display: block;
   text-align: center;
-  font-size: 25px;
-  margin: 0px 261px 0 187px;
+  font-size: 30px;
+  color: #ffff;
+  font-weight: 800;
+  margin: 0 311px 50px 300px;
+}
+#dre-number {
+  text-align: center;
 }
 
-#contact-us {
-  background: url(src/phone.jpg) no-repeat center center/cover;
-  background-size: 50rem cover;
-  background-position: top 35px;
-}
 #contact-us h1 {
   color: #294894;
   font-weight: 900;
+  text-align: center;
+}
+.social-logos {
+  display: inline-block;
+  align-items: center;
+}
+#reach-out {
+  text-align: center;
+  font-size: 27px;
+}
+#reach-out span {
+  font-weight: 800;
+}
+footer {
+  text-align: center;
 }
